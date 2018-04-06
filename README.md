@@ -25,6 +25,9 @@ a UF2 file is written and immediately write it to flash.
 * **UF2 specification repo:** https://github.com/Microsoft/uf2
 * [#DeskOfLadyada UF24U ! LIVE @adafruit #adafruit #programming](https://youtu.be/WxCuB6jxLs0)
 
+## SAME54 Support added
+Tested with SAME54N20A
+
 ## Features
 
 * USB CDC (Serial emulation) monitor mode compatible with Arduino
