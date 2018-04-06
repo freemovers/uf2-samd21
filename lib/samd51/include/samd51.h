@@ -53,6 +53,14 @@
   #include "samd51p19a.h"
 #elif defined(__SAMD51P20A__) || defined(__ATSAMD51P20A__)
   #include "samd51p20a.h"
+#elif defined(__SAME54N19A__) || defined(__ATSAME54N19A__)
+  #include "same54n19a.h"
+#elif defined(__SAME54P19A__) || defined(__ATSAME54P19A__)
+  #include "same54919a.h"
+#elif defined(__SAME54N20A__) || defined(__ATSAME54N20A__)
+  #include "same54n20a.h"
+#elif defined(__SAME54P20A__) || defined(__ATSAME54P20A__)
+  #include "same54p20a.h"
 #else
   #error Library does not support the specified device.
 #endif
